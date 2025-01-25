@@ -1,3 +1,9 @@
+# Vitalos
+
+## <In Development>
+
+A landing page made for the new card game Vitalos
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
