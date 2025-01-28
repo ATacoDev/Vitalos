@@ -196,7 +196,7 @@ export const pricingOptions = [
 
 export const resourcesLinks = [
   { href: "https://www.instagram.com/vitalosgame/", text: "Instagram" },
-  { href: "https://kadenkigames.godaddysites.com/", text: "Old Website" },
+  // { href: "https://kadenkigames.godaddysites.com/", text: "Old Website" },
   { href: "https://github.com/ATacoDev", text: "Site Developer" },
   // { href: "#", text: "Tutorials" },
   // { href: "#", text: "API Reference" },
