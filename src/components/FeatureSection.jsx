@@ -10,7 +10,7 @@ const FeatureSection = () => {
         </span>
         <h2 className="text-3xl sm:text-5xl lg:text-6xxl mt-10 lg:mt-20 tracking wide">
             The newest 2-4 player
-            <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+            <span className="bg-gradient-to-r from-blue-700 via-red-800 to-orange-500 text-transparent bg-clip-text">
             {" "} Arena Card battler!
             </span>
         </h2>

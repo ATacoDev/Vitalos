@@ -4,6 +4,11 @@ import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
+import { PencilRuler } from "lucide-react";
+import { HeartPulse } from "lucide-react";
+import { Brush } from "lucide-react";
+import { Earth } from "lucide-react";
+import { ChevronsUp } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -102,40 +107,40 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <HeartPulse />,
+    text: "Life Tied to Strategy",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Your deck isn’t just a collection of cards—it’s your lifeline. With only 20 cards to safeguard your survival, every move counts. Play smart, or risk losing it all",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <PencilRuler />,
+    text: "A Shared Foundation",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Strategize around four classes with a similar deck of cards, setting the stage for balanced gameplay. It’s a shared foundation where your strategy takes center stage",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Class-Defining Reactions",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "What truly sets each class apart are their reaction cards. These game-changing moves add a unique flavor to your playstyle. Turn the tide and dominate your foes",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <Brush />,
+    text: "Amazing Art",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Enjoy over 400+ hours of art, hand-made by the developers",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <Earth />,
+    text: "Immersive World",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Every card tells a story, and every deck opens a portal to a world of wonder. Discover the lore behind each champion, their struggles, and their victories",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <ChevronsUp />,
+    text: "Fast and Interactive Gameplay",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Say goodbye to downtime and hello to action-packed gameplay! Fast-paced turns keep the energy high, while interactive mechanics let you respond to your opponent's every move. It’s a battle of quick thinking and sharp strategy, where every second and every play matters.",
   },
 ];
 
@@ -181,7 +186,7 @@ export const pricingOptions = [
   },
   {
     title: "Founder",
-    price: "$70",
+    price: "TBA",
     features: [
       "All features of Vitalos+",
       "Special Founder game box",
@@ -199,7 +204,7 @@ export const resourcesLinks = [
 ];
 
 export const platformLinks = [
-  { href: "#", text: "<In Development>>" },
+  { href: "https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran", text: "<In Development>>" },
   // { href: "#", text: "Supported Devices" },
   // { href: "#", text: "System Requirements" },
   // { href: "#", text: "Downloads" },
@@ -207,7 +212,7 @@ export const platformLinks = [
 ];
 
 export const communityLinks = [
-  { href: "#", text: "<In Development>" },
+  { href: "https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran", text: "<In Development>" },
   // { href: "#", text: "Meetups" },
   // { href: "#", text: "Conferences" },
   // { href: "#", text: "Hackathons" },
