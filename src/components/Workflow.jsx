@@ -27,15 +27,20 @@ const Workflow = () => {
       </h2>
       <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-stretch gap-8 mt-12">
         {/* Left Side: Image Slider */}
-        <div className="w-full lg:w-2/5 flex flex-col mb-8 lg:mb-0">
-          <Slider {...sliderSettings}>
-            {champTextImage.map((item, index) => (
-              <div key={index}>
-                <img src={item.image} alt={`Slide ${index + 1}`} className="rounded-lg h-full object-cover" />
-              </div>
-            ))}
-          </Slider>
-        </div>
+        <div className="w-1/2 lg:w-2/5 flex flex-col mb-8 lg:mb-0">
+  <Slider {...sliderSettings}>
+    {champTextImage.map((item, index) => (
+      <div key={index} className="relative w-full">
+        <img 
+          src={item.image} 
+          alt={`Slide ${index + 1}`} 
+          className="rounded-lg w-full h-auto lg:h-full object-cover" 
+        />
+      </div>
+    ))}
+  </Slider>
+</div>
+
 
         {/* Right Side: Name and Bullet Points */}
         <div className="w-full lg:w-1/2 px-4 flex flex-col justify-center">
