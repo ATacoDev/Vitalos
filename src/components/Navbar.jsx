@@ -23,13 +23,15 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <ul className="hidden lg:flex ml-14 space-x-12">
-            {navItems.map((item, index) => (
-              <li key={index}>
-                <a href={item.href} className="scroll-smooth">{item.label}</a>
-              </li>
-            ))}
-          </ul>
+          <div className="hidden lg:flex flex-1 justify-center">
+            <ul className="flex space-x-12">
+              {navItems.map((item, index) => (
+                <li key={index}>
+                  <a href={item.href} className="scroll-smooth">{item.label}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
 
           {/* Desktop Call-to-Action */}
           <div className="hidden lg:flex justify-center space-x-12 items-center">
@@ -69,6 +71,7 @@ const Navbar = () => {
             </div>
           </div>
         )}
+        
       </div>
     </nav>
   );
