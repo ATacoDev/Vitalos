@@ -188,7 +188,7 @@ export const pricingOptions = [
     title: "Founder",
     price: "TBA",
     features: [
-      "All features of Vitalos+",
+      "Kickstarter Exclusive",
       "Special Founder game box",
     ],
   },
