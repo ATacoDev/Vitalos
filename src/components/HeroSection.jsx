@@ -14,15 +14,13 @@ const HeroSection = () => {
     className="rounded-lg w-1/3" // Adjust the width (1/3 of the container)
   />
 
+<h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+  <span className="bg-gradient-to-r from-blue-700 via-red-800 to-orange-500 text-transparent bg-clip-text">
+    Glory
+  </span>
+  {" "}to those who take it
+</h1>
 
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-            Glory to
-
-            <span className="bg-gradient-to-r from-blue-700 via-red-800 to-orange-500 text-transparent bg-clip-text">
-                {" "} those who take it
-            </span>
-    
-        </h1>
         <p className="mt-10 text-lg text-center text-neutral-599 max-w-4xl">
             Welcome to the world of VITALOS! 🔥 Kickstarter LAUNCHING SOON!
         </p>
